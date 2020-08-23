@@ -53,6 +53,7 @@ body {
 .b1:active{
   background-color: #f15637 !important;
 }
+
 .b2{
   background-color: #ececec;
   border: none;
@@ -63,11 +64,25 @@ body {
   border: none;
 }
 .old h3{
-  position: absolute;
-  bottom: 2%;
+  position: relative;
   font-size: 12px;
   text-transform: uppercase;
   color: #414141;
   text-decoration: underline dotted #414141;
 }
+@media only screen and (max-width: 768px) {
+  .row.cta ul li{
+    margin-top: 20px;
+  }
 
+  .row.cta h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  .row.cta p {
+    font-size: 28px;
+    line-height: 150%;
+  }
+
+}
