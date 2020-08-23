@@ -71,6 +71,10 @@ body {
   text-decoration: underline dotted #414141;
 }
 @media only screen and (max-width: 768px) {
+  .row.cta {
+    padding-top: 120px;
+  }
+
   .row.cta ul li{
     margin-top: 20px;
   }
