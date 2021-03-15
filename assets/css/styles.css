@@ -1,7 +1,11 @@
 body {
   font-family: 'Work Sans';
 }
-
+.alert-link{
+  font-weight: 600;
+  color: #F15637;
+  text-decoration: underline;
+}
 #hero {
   height: 100vh;
 }
